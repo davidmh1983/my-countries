@@ -23,7 +23,7 @@ class filter extends Component {
     return(
       <div className="filter">
         <Select text="Filtrar por " sortData={this.props.selectedOption} sortOptions={['name', 'capital']} />
-        <input onChange={this.updateInput} value={this.state.input} placeholder="filtrar por nombre de País. Por ejemplo: Spain"></input>
+        <input onChange={this.updateInput} value={this.state.input} placeholder="Por ejemplo: Spain o Madrid"></input>
       </div>
       
     )
